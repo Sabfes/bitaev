@@ -1,0 +1,22 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sabfes/bitaev.git"
+  },
+  "author": "Denis Bitaev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sabfes/bitaev/issues"
+  },
+  "homepage": "https://github.com/Sabfes/bitaev#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
