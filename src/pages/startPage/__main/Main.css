@@ -1,5 +1,5 @@
 .main {
-    padding-left: 100px;
+    padding-left: 10%;
     font-size: 66px;
     display: flex;
     height: 100%;
@@ -8,6 +8,39 @@
     align-items: flex-start;
 }
 
-.main > h1, h2 {
+.title {
+    line-height: 140px;
+}
+
+.title, .subtitle, .subtitle > span {
     font-family: 'Impact', sans-serif;
+}
+.subtitle.theme_dark > span {
+    background: #d3d6da;
+}
+.subtitle.theme_light > span {
+    background: #bdcaff;
+}
+
+@media screen and (max-width: 1280px){
+    .main {
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 1120px){
+    .main {
+        padding-left: 50px;
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 780px){
+    .main {
+        padding-left: 0;
+        font-size: 80px;
+    }
+}
+@media screen and (max-width: 580px){
+    .main {
+        font-size: 60px;
+    }
 }

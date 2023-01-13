@@ -1,0 +1,10 @@
+.App {
+    transition: .4s;
+}
+.app_theme_dark {
+    background: #080f2c;
+}
+
+.app_theme_light {
+    background: white;
+}
