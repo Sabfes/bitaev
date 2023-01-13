@@ -1,0 +1,13 @@
+.main {
+    padding-left: 100px;
+    font-size: 66px;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main > h1, h2 {
+    font-family: 'Impact', sans-serif;
+}

@@ -1,0 +1,24 @@
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+}
+.header__nav > span {
+    margin-right: 2rem;
+}
+.header__nav > span:last-child {
+    margin-right: 0;
+}
+
+.header__image {
+    right: 150px;
+    top: 0;
+    height: 450px;
+    position: fixed;
+}
