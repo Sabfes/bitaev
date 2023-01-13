@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import StartPage from "../../pages/startPage/StartPage";
 
 function App() {
   return (
     <div className="App">
-      bitaev test
+      <StartPage/>
     </div>
   );
 }
