@@ -8,10 +8,10 @@ const Header = () => {
 
   return <div className={`header theme_${theme}`}>
     <nav className={`header__nav`}>
-      <span>About</span>
-      <span>Projects</span>
-      <span>Portfolio</span>
+
     </nav>
+
+    <div className={'fire'}/>
 
     <img
       onClick={() => {

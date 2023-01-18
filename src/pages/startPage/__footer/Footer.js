@@ -7,9 +7,7 @@ const Footer = () => {
 
   return <div className={`footer theme_${theme}`}>
     <nav className={'footer__links'}>
-      <span>Instagram</span>
-      <span>Telegram</span>
-      <span>Github</span>
+
     </nav>
   </div>
 }

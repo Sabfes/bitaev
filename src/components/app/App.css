@@ -1,5 +1,7 @@
 .App {
     transition: .4s;
+    overflow: hidden;
+
 }
 .app_theme_dark {
     background: #080f2c;

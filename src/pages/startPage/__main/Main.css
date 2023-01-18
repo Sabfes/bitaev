@@ -8,10 +8,6 @@
     align-items: flex-start;
 }
 
-.title {
-    line-height: 140px;
-}
-
 .title, .subtitle, .subtitle > span {
     font-family: 'Impact', sans-serif;
 }
@@ -41,6 +37,6 @@
 }
 @media screen and (max-width: 580px){
     .main {
-        font-size: 60px;
+        font-size: 40px;
     }
 }
