@@ -1,7 +1,7 @@
 .App {
     transition: .4s;
     overflow: hidden;
-
+    padding: 120px 50px 120px;
 }
 .app_theme_dark {
     background: #080f2c;
@@ -10,3 +10,24 @@
 .app_theme_light {
     background: white;
 }
+
+.test {
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 70px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+.test.active {
+    background: grey;
+}
+.test__child {
+    margin-left: 40px;
+}
+
+
+.test:last-of-type {
+    margin-bottom: 0;
+}
+
